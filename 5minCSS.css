@@ -1,0 +1,82 @@
+/*Seleciona todo o conteúdo html da página*/
+*{
+    margin: 0;
+    padding: 0%;
+}
+/*Formatando titulos, subtítulos, fieldset, campos e input */
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue
+    margin-left: 50%;
+}
+
+fieldset{
+    border:0;
+}
+/*Formatação do corpo do texto*/
+body{
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color:  blue;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+/*Elementos de tags <body>, <select>, <textarea> e <button>*/
+input, select, textarea, button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color:blue
+    border-radius: 5px;
+}
+/*Elementos de classe "campo" de tag <label>*/
+.campo label{
+    margin-bottom: 0,2em;
+    color:blue;
+    display: block; 
+}
+
+/*Elementos de classe "campo" ou "grupo" de tag "fieldset"*/
+fieldset.grupo .campo{
+    float: left;
+    margin right: 1em;
+
+
+}
+
+.campo input[type="text"], .campo input[type=email], .campo select, textarea {
+    padding: 0.2em
+    border: 1px solid blue
+    box-shadow: 2px 2px 2px
+    background-color: rgb(186, 192, 190)
+}
+
+/*Elemento de classe "campo", com tag <input>, <select> e <textarea> quando o mouse passa a pseudoclasse "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: rgb(186, 192, 190);
+}
+
+/*Elemento de classe "botão"*/
+.botao{
+    font-size: 1.2em;
+    background-color: rgb(186, 192, 190);
+    border:0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    marigin-right: -50%;
+
+
+}
+
